@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .navbar-item {
+        @apply text-lg text-white m-12 inline cursor-pointer duration-100
+        border-accent hover:border-b-2 hover:py-2 transition-all;
+    }
+
+    .navbar-button {
+        @apply text-lg border bg-background border-accent rounded-md ml-20
+        text-accent transition-all duration-500 cursor-pointer px-3 py-2 
+        hover:bg-accentHover;
+    }
+}
